@@ -1,0 +1,82 @@
+
+
+body{
+	background:antiquewhite;
+	color:hsl(0,0%,30%);
+	font-family: 'Caveat', cursive;
+	padding-left:176px;
+	padding-top: 96px;
+	background: url("images/page.png");
+
+}
+
+h1 {
+	font-family: 'Paytone One', sans-serif;
+}
+
+input{
+	background:antiquewhite;
+	border-style: inset;
+	display: inline-block;
+	font-size:17.6px;
+	font-family: 'Caveat', cursive;
+}
+
+input:focus{
+	background:hsl(34,70%,98%);
+}
+
+button{
+	font-family: 'Caveat', cursive;
+	border-radius:6.4px;
+	font-size:17.6px;
+}
+
+.list {
+	font-family: 'Caveat', cursive;
+}
+
+.done{
+	color:hsl(0,0%,0%);
+	text-decoration: line-through;
+	border:none;
+}
+
+.task{
+	font-family: 'Caveat', cursive;
+	display:inline-block;
+	font-size:19.2px;
+	margin-bottom: 16px;
+}
+
+.control{
+	display:inline-block;
+	font-size:16px;
+	color:hsl(204,100%,36%);
+	background:hsl(204,100%,85%);
+}
+
+.taskCheck{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:hsl(204,100%,85%);
+	margin-right:8px;
+	font-size:12.8px;
+	padding:1.6px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.addStuff {
+	background:hsl(204,100%,85%);
+}
+
+.checked{
+	background:hsl(204,100%,36%);
+	cursor: default;
+}
+
+.everything {
+	float: right;
+}
